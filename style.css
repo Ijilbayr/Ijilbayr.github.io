@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.deed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+.deed ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.deed ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all 1s;
+}
+.deed ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px ;
+    transition: all  Ss ease;
+}
+.deed ul li a:hover{
+    background-color:white;
+    color: black;
+    box-shadow: 0 0 10px white;
+
+}
+    #Нүүр{
+        display: flex;
+        flex-direction: column;
+        /* background-color: rgba(0, 0, 0, 0.5); */
+        height: 813px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    #Нүүр:before{
+        content: "" ; 
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: url(./img/285073751_1355792618159897_8266126890664968112_n\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 900px;
+        width: 100%;
+        z-index: -1;
+        opacity: .8;
+    }
+    .Нүүр{
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+        position: absolute;
+    
+        right: 10%;   
+     }
+     .head{
+        font-family: century;
+        font-size: 3rem;
+        text-align: center;
+        margin: 40px 0px;
+     }
+     .btn{
+        padding: 10px 35px ;
+        background-color: transparent;
+        border: 1px solid white;
+        outline: none;
+        transition: .6 ease;
+     }
+     .btn:hover{
+        cursor: pointer;
+        background-color: white;
+        color: black;
+        box-shadow: 0 0 5px white,0 0 10px white,0 0 15px white;
+        font-weight: bold;
+     }
+
+     #танилцуулга{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 20px;
+        margin-bottom: 50px;
+     }
+     #loy{
+        display: flex;
+     }
+     #loy img{
+        width: 575px;
+        height: 400px;
+
+     }
+     #intro{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        padding: 10px;
+     }
+     #intrp h2{
+        font-size: 2rem;
+        margin-bottom: 20px;
+     }
+     #Хобби{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.9);
+        color: white;
+        align-items: center;
+        padding: 20px;
+
+     }
+     .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        box-sizing: border-box;
+     }
+     .gallery img{
+        width: 360px;
+        height: 240px;
+        margin: 10px;
+     }
+     #тоглоом{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+     }
+     .row{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+     }
+     .box{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 450px;
+        border: 1px solid black;
+        margin: 10px;
+        align-items: center;
+        text-align: justify;
+        padding: 10px;
+        border-radius: 15px;
+       
+        background-size: 100% 200%;
+        transition: all .8s; }
+       
+        .box img{
+            width: 80px;
+            height: 80px;
+            background-color: white ;
+            padding: 10px;
+        }
+        #мэдээлэл{
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 20px;
+        }
+        #мэдээлэл .head p{
+            justify-content: center;
+            align-items: center;
+            letter-spacing: 2px;
+            font-family: century;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: all 1s;
+        }
+        #мэдээлэл video{
+            width: 80%;
+            height: 70%;
+            justify-content: center;
+            align-items: center;
+            ;padding-left: 20px;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            align-items: center;
+            margin: 20px 0px;
+        }
+        #мэдээлэл .footer{
+            width: 100%;
+            
+            
+        }
+        .footer p{
+            width: fit-content;
+            margin: auto;
+            margin-bottom: 10px;
+            text-align: center;
+            padding-left: 5px;
+            padding-right: 5px;
+
+        }
+        .footer p:hover{
+            background-color: #fff;
+            color: #000;
+            transition: 0.4s;
+            border-radius: 10px;
+        }
+        .input{
+            padding: 12px;
+            margin: 15px;
+            width: 30%;
+            border: none;
+            outline: none;
+        }
+        .mobile{
+            width: 100%;
+            height: 60px;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            display: none;
+            position: relative;
+        }
+        .mobile p{
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .mobile p span{
+            color: aqua;
+        }
+        .mobile .drop{
+            background-color: rgba(0, 0, 0, 0.9);
+            position: absolute;
+            top: 60px;
+            width: 100%;
+            height: 50vh;
+            text-align: center;
+            display: none;
+        }
+        .mobile .drop li{
+            padding: 20px;
+        }
+        .mobile .drop li a{
+            color: white;
+            outline: none;
+            text-decoration: none;
+            font-size: 20px;
+            list-style: none;
+        }
+        .mobile .drop li a:hover{
+            color: aqua;
+        }
+        .mobile #check:checked ~ .drop{
+            display: block;
+        }
+        #check{
+            display: none;
+        }
+      @media screen and (max-width:620px) {
+        .deed{
+            display: none;
+        }
+
+        .mobile{
+            display: flex;
+        }
+        
+      }
+        @media screen and (max-width:800px ) {
+            .deed ul{
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .head{
+                font-size: 2.5rem;
+            }
+            #loy{
+                flex-direction: column;
+                align-items: center; 
+            }
+            #loy img{
+                width: 475px;
+                height: 300px;
+            }
+            #intro h2{
+                text-align: center;
+                padding: 10px;
+
+            }
+            .input{
+                width: 60%;
+            }
+            #msg{
+                width: 55%;
+            }
+            #send{
+                width: 20%;
+            }
+        }
+        @media screen and (max-width:530px){
+            #home{
+                height: 820px;
+            }
+            .head{
+                font-size: 1.7rem;
+            }
+            #loy img{
+                width: 300px;
+                height: 175px;
+            }
+            #intro h2{
+                font-size: 1.5rem;
+            }
+            .gallery img{
+                width: 250px;
+                height: 150px;
+                margin: 10px;
+            }
+            .input{
+                width: 80%;
+            }
+            #msg{
+                width: 70%;
+            }
+            #send{
+                width: 20%;
+            }
+        }
+        /* @media screen and (max-width:545px) {
+            .нүүр{
+                height: 612px;
+            }
+        } */
+       
